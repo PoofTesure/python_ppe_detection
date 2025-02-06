@@ -96,7 +96,7 @@ pipeline = InferencePipeline.init(
     model_id="construction-site-safety/27", # Roboflow model to use
     video_reference=0, # Path to video, device id (int, usually 0 for built in webcams), or RTSP stream url
     on_prediction=my_custom_sink, # Function to run after each prediction
-    api_key="htIBAVUHNFJE7C8rKomO"
+    api_key=""
 )
 pipeline.start()
 pipeline.join()
